@@ -1,0 +1,8 @@
+# Default reviewer for application, security and deployment changes
+* @vimakasystems-git
+
+# Require owner review for security-sensitive files
+/backend/server/ @vimakasystems-git
+/src/ @vimakasystems-git
+/.github/ @vimakasystems-git
+/docs/ @vimakasystems-git
