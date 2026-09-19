@@ -33,3 +33,8 @@ Synchronize complete product source, preserve license files, then inventory tena
 ## Update protocol
 
 After each change, record date, commit, files, tests, result, unresolved risks and next action.
+
+
+## Cloudflare checkpoint
+
+Added docs/CLOUDFLARE-DEPLOYMENT.md. No Cloudflare resources have been provisioned. Deployment remains gated on source availability, passing Git tests, secret configuration, edge controls and rollback evidence.
