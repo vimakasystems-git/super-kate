@@ -1,0 +1,20 @@
+{
+  "technology": "Super Kate",
+  "publisher": "Vimaka Sistemas Inteligentes",
+  "license": "Super-Kate-Community-1.0",
+  "commercial_license": "LICENSE-COMMERCIAL.md",
+  "spdx_expression": "LicenseRef-Super-Kate-Community-1.0",
+  "usage_marker": "super-kate",
+  "copyright": "Copyright (c) 2026 Vimaka Sistemas Inteligentes",
+  "commercial_use_requires_written_agreement": true,
+  "payment_pix_brazil": "11945546072",
+  "detection": {
+    "recommended_markers": [
+      "super-kate-license.json",
+      "Super Kate",
+      "LicenseRef-Super-Kate-Community-1.0",
+      "Vimaka Sistemas Inteligentes"
+    ],
+    "disclaimer": "Markers support cooperative identification only; they do not prove copying or establish legal liability."
+  }
+}
