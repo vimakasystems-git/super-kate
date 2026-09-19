@@ -1,0 +1,32 @@
+name: Source baseline
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Inventory source and manifests
+        shell: bash
+        run: |
+          echo "Tracked files:"
+          git ls-files | sed -n '1,120p'
+          echo "Manifests:"
+          find . -maxdepth 4 -type f \\( -name package.json -o -name package-lock.json -o -name pyproject.toml -o -name Cargo.toml -o -name go.mod -o -name wrangler.jsonc -o -name wrangler.toml \\) -print
+          if ! find . -maxdepth 4 -type f \\( -name package.json -o -name pyproject.toml -o -name Cargo.toml -o -name go.mod \\) -print -quit | grep -q .; then
+            echo "::warning::No runtime manifest found; source synchronization is required before functional tests."
+          fi
+      - name: Detect obvious committed secrets
+        shell: bash
+        run: |
+          if git grep -nE '(AKIA[0-9A-Z]{16}|-----BEGIN (RSA|EC|OPENSSH|PRIVATE) KEY-----|sk_live_[A-Za-z0-9]+)' -- ':!docs/**' ':!*.md'; then
+            echo "::error::Possible secret detected in tracked source."
+            exit 1
+          fi
