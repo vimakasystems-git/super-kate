@@ -1,21 +1,41 @@
-MIT License
+Super Kate Community License 1.0
 
 Copyright (c) 2026 Vimaka Sistemas Inteligentes
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. Permission for free use
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+You may use, copy, modify, and share this software free of charge only for:
+- personal use;
+- education and research;
+- evaluation and testing; or
+- other non-commercial purposes that do not generate revenue, fees,
+  subscriptions, paid services, advertising revenue, or commercial advantage.
+
+You must keep this license notice and identify modified versions.
+
+2. Commercial use requires a separate license
+
+Commercial use is prohibited under this license. Commercial use includes:
+- selling or licensing the software or a derivative;
+- embedding it in a paid product, subscription, SaaS, or hosted service;
+- using it to provide services to paying customers;
+- using it in an organization for revenue-generating operations; or
+- monetizing access, content, features, or output substantially enabled by it.
+
+Commercial use requires a separate written commercial license from Vimaka
+Sistemas Inteligentes. Commercial terms, including any royalty, minimum fee,
+reporting duty, and payment method, must be agreed in writing before the
+commercial use begins. The commercial license is available at:
+LICENSE-COMMERCIAL.md
+
+3. Restrictions
+
+You may not remove this license notice, falsely claim ownership, or use the
+Vimaka or Super Kate names and trademarks to imply endorsement.
+
+4. No warranty
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+IMPLIED. TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE AUTHORS AND COPYRIGHT
+HOLDERS ARE NOT LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM
+THE SOFTWARE OR ITS USE.
