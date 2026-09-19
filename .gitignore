@@ -1,0 +1,25 @@
+# Local configuration
+.env
+.env.*
+!.env.example
+*.local
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+
+# Runtime and editor files
+*.log
+.DS_Store
+.vscode/
+.idea/
+
+# Credentials and certificates
+*.pem
+*.key
+*.p12
+*.crt
+secrets/
